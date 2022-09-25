@@ -4,4 +4,9 @@ on: [push]
 
 jobs:
   build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check Out the code 
+        uses: actions/checkout@v2
+        
