@@ -14,7 +14,7 @@ jobs:
   MacOS:
     runs-on: macos-latest
     steps:
-      - run: echo "I DID A MAC THING"
+      - run: ec "I DID A MAC THING"
   depends:
     needs: [ubuntu,windows,MacOS] 
     runs-on: macos-latest
